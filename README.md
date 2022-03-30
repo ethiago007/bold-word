@@ -3,7 +3,7 @@ OFFENSIVE WORDS HIDING
 # NAME OF CONTRIBUTORS
 MOHAMMED KAMALDEEN
 ## BRIEF DESCRIPTION OF THE PROJECT
-It's a webpage that hides some very offensive and annoying words inputted by the user and also bolds some selected words.
+It's a webpage that shows your most three common words.
 ## TECHNOLOGIES USED
 * HTML
 * CSS
@@ -11,12 +11,12 @@ It's a webpage that hides some very offensive and annoying words inputted by the
 * Javascript
 * jquery
 ## LONGER DESCRIPTION OF THE PROJECT
-The site encryptes or encodes or hide some very offensive words a user inputs. It also bolden some words selected by the user
+The site shows your most common words or most used words inputted by the user
 ### KNOWN BUGS
 *
 
 ## WEBPAGE LINK
-https://ethiago007.github.io/bold-word/
+
 ## CONTACT INFORMATION
 * +2349064252791 (calls and WhatsApp)
 * mohammedkamaldeen204@gmail.com

@@ -1,5 +1,5 @@
 # SITE NAME
-OFFENSIVE WORDS HIDING
+THREE MOST COMMON WORDS
 # NAME OF CONTRIBUTORS
 MOHAMMED KAMALDEEN
 ## BRIEF DESCRIPTION OF THE PROJECT
@@ -16,7 +16,7 @@ The site shows your most common words or most used words inputted by the user
 *
 
 ## WEBPAGE LINK
-
+https://ethiago007.github.io/three-most/
 ## CONTACT INFORMATION
 * +2349064252791 (calls and WhatsApp)
 * mohammedkamaldeen204@gmail.com

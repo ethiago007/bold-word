@@ -24,4 +24,33 @@ function boldPassage(word, passage) {
 
 }
 
+function filterSentence2(sentence) {
+  sentence = sentence.toLowerCase();
+  sentence = sentence.replace(/[!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/g, "");
+  return sentence;
+}
+function numberOfOccurrencesInText(word, text) {
+  if ((text.trim().length === 0) || (word.trim().length === 0)) {
+    return 0;
+  }
+  let wordArray = text.split(" ");
+  let wordCount = 0;
+  wordArray.forEach(function(element) {
+    if (wordMatch(element,word)) {
+      wordCount++;
+    }
+  });
+  return wordCount;
+}
+$(document).ready(function () {
+  $("#BOLDEN").submit(function (event) {
+    event.preventDefault();
+    let passage = $("#text-passage").val();
+    let name = $("#input1").val();
+    let wordOccurence = topThreeWords(passage);
+   
+    $("#output").html(wordOccurence);
+
+  });
+});
 

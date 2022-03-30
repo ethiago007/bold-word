@@ -54,3 +54,33 @@ $(document).ready(function () {
   });
 });
 
+function topThreeWords(text) {
+  if (errorCheck(text)) {
+    return 0;
+  }
+  // let text = filterSentence(text);
+  let textArray = text.split(" ");
+  let topmost = 0;
+  let topmostWord = "";
+  let secondMost = 0;
+  let secondWord = "";
+  let thirdMost = 0;
+  let thirdWord = "";
+  let result = "";
+  textArray.forEach(function (element) {
+    let numberOfTimes = numberOfOccurrencesInText(element, text);
+    if (numberOfTimes > topmost) {
+      topmost = numberOfTimes;
+      topmostWord = element;
+    } else if (numberOfTimes > secondMost) {
+      secondMost = numberOfTimes;
+      secondWord = element;
+    } else if (numberOfTimes > thirdMost) {
+      thirdMost = numberOfTimes;
+      thirdWord = element;
+    }
+    result = topmostWord + " " + topmost + "<br>" + secondWord + " " + secondMost + "<br>" + thirdWord + " " + thirdMost;
+  });
+  return result;
+}
+
